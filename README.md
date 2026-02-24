@@ -15,7 +15,10 @@ In this lab you've learned the basics of number theory as it relates to addition
 
 ### 1 - How might you add more than two bits together?
 
+To add more bits, you would have to continue to add a full adder module in the top file (this can be from the same full adder module), ensuring your carry-out is passed through a wire to the carry in for the next full-adder. 
+
 ### 2 - What is the importance of the XOR gate in an adder?
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
 
+The largest number would be 6 without any overflow errors.
